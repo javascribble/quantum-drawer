@@ -1,3 +1,9 @@
 import { template } from '../../references/quantum.js';
 
-export const drawer = template('', '');
+const html = `
+`;
+
+const css = `
+`;
+
+export const drawer = template(html, css);
