@@ -1,1 +1,3 @@
-export * from './elements/drawer.js';
+import * as drawer from './elements/drawer.js';
+
+Object.assign(window, drawer);
