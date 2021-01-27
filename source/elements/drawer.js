@@ -1,5 +1,7 @@
 import html from '../templates/drawer.js';
 
+const { Component, template, define } = quantum;
+
 export class Drawer extends Component {
     constructor() {
         super();
