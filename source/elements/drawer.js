@@ -1,13 +1,9 @@
 import html from '../templates/drawer.js';
 
-const { Component, template, define } = quantum;
-
-export class Drawer extends Component {
+export class Drawer extends Quantum {
     constructor() {
         super();
     }
-
-    static template = template(html);
 }
 
-define('quantum-drawer', Drawer);
+Drawer.define('quantum-drawer', html);
